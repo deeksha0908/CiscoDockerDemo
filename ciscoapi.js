@@ -20,7 +20,7 @@ app.get('/', async(req,res)=>{
 
 const port = 8080;
 
-const server = app.listen(port, () => console.log(`server running on port ${port}`));
+const server = app.listen("0.0.0.0", port, () => console.log(`server running on port ${port}`));
 
 process.on("unhandledRejection",(err, promise)=>{
     console.log(`logged error : ${err}`);
