@@ -11,7 +11,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: CiscoDockerDemo
+  IMAGE_NAME: cisco-docker-demo
 
 jobs:
   push:
